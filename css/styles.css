@@ -3,15 +3,40 @@ body{
 }
 h1{
     font-family: 'Russo One', sans-serif;
-    font-weight: bolder;
+    
     font-size: 3.5rem;
     line-height: 1.5;
     letter-spacing:4px ;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: 900;
+    font-family: 'Montserrat';
+}
+p{
+    color: #afafaf;
 }
 
 #title{
     background-color: #ff4c68;
     color: #fff;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
 }
 .container-fluid{
     padding: 3% 15%;
@@ -20,6 +45,21 @@ h1{
     width: 60%;
     transform: rotate(25deg);
 }
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* navbar */
 .navbar{
     padding: 0 0 4.5rem ;
 }
@@ -55,13 +95,6 @@ h1{
     padding: 5%;
 }
 
-h3{
-    font-weight: 900;
-    font-family: 'Montserrat';
-}
-p{
-    color: #afafaf;
-}
 .featuresticker{
     color:#ef8172;
     margin-bottom: 1rem;
